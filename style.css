@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game Area */
+.game{
+    width: 90vw;
+    height: 80vh;
+    border: 0.5vw solid black;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+/* Bird */
+.bird{
+    position: absolute;
+    left: 0vw;
+}
+
+.bird img{
+    width: 5vw;
+}
+
+/* Pipes */
+.pipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Pipe body */
+.top,
+.bottom{
+    width: 6vw;
+    background-color: limegreen;
+    border: 0.4vw solid black;
+}
+
+/* Gap between pipes */
+.gap{
+    height: 15vh;   /* Difficulty control here */
+}
