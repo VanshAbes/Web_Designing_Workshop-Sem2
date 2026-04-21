@@ -43,3 +43,8 @@ body{
     transform: translateZ(2);
     background-color: rgb(194, 184, 184);
 }
+
+.madeby{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
