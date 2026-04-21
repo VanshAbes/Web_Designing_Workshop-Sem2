@@ -40,3 +40,8 @@ button:hover{
     cursor: pointer;
     background-color: rgba(52, 47, 47, 0.54);
 }
+
+.madeby{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
