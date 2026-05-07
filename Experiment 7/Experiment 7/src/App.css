@@ -1,0 +1,47 @@
+/* Container for the entire list */
+#root {
+    background-color: #e0dede;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Header style */
+h1 {
+    margin-top: 0;
+    font-size: 2.7rem;
+    color: #000;
+    text-align: center;
+}
+
+/* Individual Card Styling */
+.box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+
+    /* This creates the soft shadow seen in your image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+/* Hover effect to make it interactive */
+.box:hover {
+    transform: translateY(-2px);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.6;
+}
